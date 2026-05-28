@@ -13,11 +13,13 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.outlined.ArrowBack
 import androidx.compose.material.icons.outlined.FilterList
 import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -45,7 +47,8 @@ import java.util.Locale
 @Composable
 fun CatalogScreen(
     viewModel: CatalogViewModel,
-    onDebrisClick: (String) -> Unit
+    onDebrisClick: (String) -> Unit,
+    onBack: () -> Unit
 ) {
     val all = DebrisRepository.getAll()
     val filtered = viewModel.getFilteredList()
@@ -62,6 +65,15 @@ fun CatalogScreen(
                         style = MaterialTheme.typography.headlineSmall,
                         color = TextPrimary
                     )
+                },
+                navigationIcon = {
+                    IconButton(onClick = onBack) {
+                        Icon(
+                            imageVector = Icons.AutoMirrored.Outlined.ArrowBack,
+                            contentDescription = stringResource(R.string.catalog_back_description),
+                            tint = TextPrimary
+                        )
+                    }
                 },
                 actions = {
                     Icon(

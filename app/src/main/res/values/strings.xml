@@ -17,6 +17,7 @@
     <string name="catalog_metric_mass">MASSA TOTAL</string>
     <string name="catalog_metric_countries">PAÍSES</string>
     <string name="catalog_filter_description">Filtrar</string>
+    <string name="catalog_back_description">Voltar ao início</string>
 
     <string name="detail_id">DETRITO #%1$s</string>
     <string name="detail_section_history">HISTÓRIA</string>
