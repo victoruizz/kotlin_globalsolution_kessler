@@ -8,6 +8,17 @@ Kessler é um aplicativo Android que catalogiza detritos espaciais em órbita da
 
 ## Telas
 
+<table>
+  <tr>
+    <td align="center"><img src="docs/screens/home.png" width="260" alt="Tela inicial" /><br/><sub><b>Home</b></sub></td>
+    <td align="center"><img src="docs/screens/catalog.png" width="260" alt="Catálogo orbital" /><br/><sub><b>Catálogo</b></sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screens/detail.png" width="260" alt="Detalhe do detrito" /><br/><sub><b>Detalhe</b></sub></td>
+    <td align="center"><img src="docs/screens/confirmation.png" width="260" alt="Confirmação de adoção" /><br/><sub><b>Confirmação</b></sub></td>
+  </tr>
+</table>
+
 - **Home** — apresenta a marca PROJETO KESSLER, a tagline "Antes que a cascata comece." e o botão de entrada para o catálogo.
 - **Catálogo** — lista 16 detritos rastreados em cards, com estatísticas resumidas e filtros por nível de risco.
 - **Detalhe** — exibe identidade, badge de risco, barra de altitude orbital (LEO/MEO/GEO), grade de informações técnicas e histórico do detrito, com botão de adoção.
