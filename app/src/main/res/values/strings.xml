@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kessler</string>
+
+    <string name="home_eyebrow">PROJETO</string>
+    <string name="home_wordmark">KESSLER</string>
+    <string name="home_tagline">Antes que a cascata comece.</string>
+    <string name="home_description">Catálogo de detritos espaciais em órbita da Terra. Visualize, entenda e apoie a limpeza orbital.</string>
+    <string name="home_cta">EXPLORAR CATÁLOGO</string>
+    <string name="home_footer">Sistemas de Informação · FIAP</string>
+    <string name="home_header_left">FIAP</string>
+    <string name="home_header_right">GLOBAL SOLUTION 2026</string>
+
+    <string name="catalog_title">CATÁLOGO ORBITAL</string>
+    <string name="catalog_filter_all">TODOS</string>
+    <string name="catalog_metric_debris">DETRITOS</string>
+    <string name="catalog_metric_mass">MASSA TOTAL</string>
+    <string name="catalog_metric_countries">PAÍSES</string>
+    <string name="catalog_filter_description">Filtrar</string>
+
+    <string name="detail_id">DETRITO #%1$s</string>
+    <string name="detail_section_history">HISTÓRIA</string>
+    <string name="detail_cta">ADOTAR ESTE DETRITO</string>
+    <string name="detail_label_mass">MASSA (KG)</string>
+    <string name="detail_label_inclination">INCLINAÇÃO</string>
+    <string name="detail_label_year">ANO DE LANÇAMENTO</string>
+    <string name="detail_label_type">TIPO</string>
+    <string name="detail_back_description">Voltar</string>
+
+    <string name="confirmation_title">ADOÇÃO CONFIRMADA</string>
+    <string name="confirmation_message">Você apoiou simbolicamente a remoção de %1$s.</string>
+    <string name="confirmation_note">Sua contribuição entrou no registro do Projeto Kessler.</string>
+    <string name="confirmation_back_to_catalog">VOLTAR AO CATÁLOGO</string>
+    <string name="confirmation_back_to_home">VOLTAR AO INÍCIO</string>
+
+    <string name="risk_badge">RISCO %1$s</string>
+    <string name="country_year">%1$s · %2$d</string>
+    <string name="value_km">%1$s km</string>
+    <string name="value_kg">%1$s kg</string>
+    <string name="value_degrees">%1$s°</string>
+    <string name="value_tonnes">%1$st</string>
+
+    <string name="card_metric_altitude">ALT</string>
+    <string name="card_metric_mass">MASSA</string>
+    <string name="card_metric_inclination">INCL</string>
+
+    <string name="altitude_zone_leo">LEO</string>
+    <string name="altitude_zone_meo">MEO</string>
+    <string name="altitude_zone_geo">GEO</string>
+</resources>
