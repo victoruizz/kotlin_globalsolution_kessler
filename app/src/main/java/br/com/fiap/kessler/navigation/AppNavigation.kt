@@ -32,7 +32,8 @@ fun AppNavigation() {
             val catalogViewModel: CatalogViewModel = viewModel()
             CatalogScreen(
                 viewModel = catalogViewModel,
-                onDebrisClick = { id -> navController.navigate(Routes.detail(id)) }
+                onDebrisClick = { id -> navController.navigate(Routes.detail(id)) },
+                onBack = { navController.popBackStack() }
             )
         }
         composable(Routes.DETAIL) { backStackEntry ->
